@@ -80,16 +80,15 @@ function BrowsePage() {
           <HeaderLink onClick={() => setCategory("series")}>Series</HeaderLink>
         </BrowseNavbar>
         <FeatureWrapperBrowse>
-          <FeatureTitleBrowse>Watch The Irish Man</FeatureTitleBrowse>
+          <FeatureTitleBrowse>TOP GUN: MAVERICK</FeatureTitleBrowse>
           <FeatureSubTitleBrowse>
-            Hit man Frank Sheeran looks back at the secrets he kept as a loyal
-            member of the Bufalino crime family in this acclaimed film from
-            Martin Scorsese.
+          Na sequência de Top Gun: Ases Indomáveis, acompanhamos a história de Pete “Maverick” Mitchell (Tom Cruise), 
+          um piloto à moda antiga da Marinha que coleciona muitas condecorações
           </FeatureSubTitleBrowse>
-          <PlayButton onClick={() => setShowPlayer(true)}>Play</PlayButton>
+          <PlayButton onClick={() => setShowPlayer(true)}>Assistir</PlayButton>
           {showPlayer ? (
             <PlayerOverlay onClick={() => setShowPlayer(false)}>
-              <PlayerVideo src="./videos/video.mp4" type="video/mp4" />
+              <PlayerVideo src="https://ipfs.io/ipfs/QmWqVoEofXMThSaFWAPQQKPjzwXYQmYaXi67pbYK9wKA8v?filename=top_gun.mp4" type="video/mp4" />
             </PlayerOverlay>
           ) : null}
         </FeatureWrapperBrowse>

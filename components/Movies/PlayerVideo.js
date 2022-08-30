@@ -14,7 +14,7 @@ function PlayerVideo({ children, ...restProps }) {
 export const Video = styled.video`
   position: relative;
   width: 100%;
-  max-width: 800px;
+  max-width: 1080px;
   margin: auto;
 `;
 

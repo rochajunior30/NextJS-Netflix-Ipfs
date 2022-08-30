@@ -8,7 +8,7 @@ function BrowseHeaderWrapper({ children, ...restProps }) {
 
 /*---> Styles <---*/
 export const Wrapper = styled.div`
-  background: url("/images/misc/irishman.jpg");
+  background: url("/images/misc/top_gun.jpg");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
