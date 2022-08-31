@@ -9,7 +9,7 @@ import FAQData from "../data/faqs.json";
 function AccordionCompound() {
   return (
     <AccordionWrapper>
-      <AccordionTitle>Frequently Asked Questions</AccordionTitle>
+      <AccordionTitle>Perguntas Frequentes</AccordionTitle>
       {FAQData.map((item) => (
         <AccordionItem key={item.id}>
           <AccordionHeader>{item.header}</AccordionHeader>

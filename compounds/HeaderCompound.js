@@ -13,11 +13,10 @@ function HeaderCompound({ children }) {
       <HeaderWrapper>
         <Navbar>
           <Logo />
-          <SigninButton>Sign In</SigninButton>
+          <SigninButton>Entrar</SigninButton>
         </Navbar>
         <FeatureWrapper>
-          <FeatureTitle>Unlimited movies, TV shows and more.</FeatureTitle>
-          <Warning>This is NOT official Netflix</Warning>
+          <FeatureTitle>Filmes ilimitados, programas de TV e muito mais.</FeatureTitle>
         </FeatureWrapper>
         {children}
       </HeaderWrapper>

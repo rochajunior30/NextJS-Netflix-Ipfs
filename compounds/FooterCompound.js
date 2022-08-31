@@ -8,12 +8,12 @@ import FooterLink from "../components/Footer/FooterLink";
 function FooterCompound() {
   return (
     <FooterWrapper>
-      <FooterTitle>Questions? Contact us.</FooterTitle>
+      <FooterTitle>Perguntas? Contate-Nos</FooterTitle>
       <FooterRow>
         <FooterColumn>
           <FooterLink>FAQ</FooterLink>
-          <FooterLink>Investor Relations</FooterLink>
-          <FooterLink>Privacy</FooterLink>
+          <FooterLink>Relações com Investidores</FooterLink>
+          <FooterLink>Privacidade</FooterLink>
           <FooterLink>Speed Test</FooterLink>
         </FooterColumn>
         <FooterColumn>

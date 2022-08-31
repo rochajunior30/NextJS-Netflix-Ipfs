@@ -8,11 +8,11 @@ function OptFormCompound({ children }) {
   return (
     <>
       <OptFormText>
-        Ready to watch? Enter your email to create or restart your membership.
+      Pronto para assistir? Digite seu e-mail para criar ou reiniciar sua inscrição.
       </OptFormText>
       <OptFormWrapper>
         <OptFormEmail></OptFormEmail>
-        <OptFormButton>Get Started</OptFormButton>
+        <OptFormButton>Iniciar</OptFormButton>
       </OptFormWrapper>
       {children}
     </>

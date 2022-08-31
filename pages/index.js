@@ -11,9 +11,9 @@ function Home() {
   return (
     <>
       <Head>
-        <title>Netflix NEXT.JS</title>
+        <title>Netflix com tecnologia IPFS</title>
         <meta charSet="utf-8" />
-        <meta name="description" content="Netflix Clone Built Using NEXT.JS" />
+        <meta name="description" content="Netflix Clone com tecnologia IPFS - Rocha Junior" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <HeaderCompound>

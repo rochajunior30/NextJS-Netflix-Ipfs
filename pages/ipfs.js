@@ -94,46 +94,7 @@ function BrowsePage() {
         </FeatureWrapperBrowse>
       </BrowseHeaderWrapper>
 
-      <AllSlidesWrapper>
-        {currentCategory.map((slideItem) => (
-          <SlideWrapper key={`${category}-${slideItem.title.toLowerCase()}`}>
-            <SlideTitle>{slideItem.title}</SlideTitle>
-            <AllCardsWrapper>
-              {slideItem.data.map((cardItem) => (
-                <CardWrapper key={cardItem.docId}>
-                  <CardImage
-                    onClick={() => {
-                      setShowCardFeature(true);
-                      setActiveItem(cardItem);
-                    }}
-                    src={`../images/${category}/${cardItem.genre}/${cardItem.slug}/small.jpg`}
-                  />
-                </CardWrapper>
-              ))}
-            </AllCardsWrapper>
-            {showCardFeature &&
-            slideItem.title.toLowerCase() === activeItem.genre ? (
-              <CardFeatureWrapper
-                style={{
-                  backgroundImage: `url(../images/${category}/${activeItem.genre}/${activeItem.slug}/large.jpg)`,
-                }}
-              >
-                <CardTitle>{activeItem.title}</CardTitle>
-                <CardDescription>{activeItem.description}</CardDescription>
-                <CardFeatureClose onClick={() => setShowCardFeature(false)} />
-                <PlayButton onClick={() => setShowPlayer(true)}>
-                  Play
-                </PlayButton>
-                {showPlayer ? (
-                  <PlayerOverlay onClick={() => setShowPlayer(false)}>
-                    <PlayerVideo src="../videos/video.mp4" type="video/mp4" />
-                  </PlayerOverlay>
-                ) : null}
-              </CardFeatureWrapper>
-            ) : null}
-          </SlideWrapper>
-        ))}
-      </AllSlidesWrapper>
+      
       <FooterCompound />
     </>
   );
